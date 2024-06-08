@@ -1,0 +1,6 @@
+fx_version 'cerulean'
+game 'gta5'
+author 'arterx'
+description 'basic health checkup script'
+lua54 'yes'
+client_script 'CORE_doctors_c.lua'
