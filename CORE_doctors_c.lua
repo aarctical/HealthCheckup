@@ -62,11 +62,11 @@ end
 
 hasCancer = false
 function DecideFate()
-    -- Chance = math.random( 100 )
-    -- if Chance == 69 then
+    Chance = math.random( 100 )
+    if Chance == 69 then
         ShowAdvNotification("CHAR_BARRY", "Doctor", "Emergency Diagnosis", "You have cancer, you have "..math.random(100).." days to live.")
         hasCancer = true
-    -- end
+    end
 end
 
 Hospitals = {
